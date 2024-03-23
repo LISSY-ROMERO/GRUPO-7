@@ -35,11 +35,11 @@ Aunque existen métodos para identificar y eliminar lecturas humanas de los dato
 
  
 
-## Flujo de trabajo 
 
-# MARCO TEÓRICO
+
+
 ##
-# METODOLOGÍA 
+# FLUJO DE TRABAJO
 ## REVISIÓN DE LA CALIDAD DE LAS SECUENCIAS A UTILIZAR
 Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
 la respectiva descarga.
