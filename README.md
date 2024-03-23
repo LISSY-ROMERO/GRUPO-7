@@ -1,7 +1,10 @@
 
 **Autores:** 
-María Belén Apolo Renjifo
-Eduardo Giuseppe Basantes Rivera
+* María Belén Apolo Renjifo
++ Eduardo Giuseppe Basantes Rivera
+- Joselyn Katerine Tulcanaz Montesdoca
+
+
 Joselyn Katerine Tulcanaz Montesdoca
 
 **Fecha:**  Marzo del 2024
