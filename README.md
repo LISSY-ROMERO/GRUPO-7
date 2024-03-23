@@ -3,6 +3,23 @@
 ##
 ##
 
+## REVISIÓN DE LA CALIDAD DE LAS SECUENCIAS A UTILIZAR
+Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
+la respectiva descarga.
+
+### Figura 1. 
+Ejecución de las cuatro secuencias en FastQ en la terminal y uso del comando "fastqc".
+![WhatsApp Image 2024-03-23 at 1 55 28 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/8a799aad-7c05-47f6-b3ef-c7a38d54948e)
+
+### Figura 2. 
+Ejecución del comando "ls" para visualización de los archivos HTML creados. 
+![WhatsApp Image 2024-03-23 at 1 55 51 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/22151375-5376-488d-b558-ff37b57eefc4)
+
+### Figura 3. 
+Visualización de archivos .HTML en carpetas de Virtual Box.
+![WhatsApp Image 2024-03-23 at 1 56 27 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/40c133f6-8be3-4935-a358-b8226ff0757e)
+
+
 
 
 ## OBTENCIÓN DE DATOS 
@@ -25,7 +42,7 @@ Emparejamiento de secuencias Fastq de lecturas forward y reverse
 ### LECTURA, RECORTE Y  MAPEO 
 
 ### Figura 3.
-Control de Calidad
+Control
 
 
 
