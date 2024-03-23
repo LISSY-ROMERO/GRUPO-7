@@ -4,12 +4,12 @@
 **Fecha:**  Marzo del 2024
 
 
-## Tema 
+## 1. Tema 
 
 Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 
 
 
-## 1. Problema 
+## 2. Problema 
 
 Aunque la secuenciación genómica del SARS-CoV-2 es fundamental para comprender su evolución, identificar nuevas variantes y desarrollar estrategias de control, la presencia de lecturas humanas en los datos genómicos puede distorsionar los resultados y dificultar el análisis preciso. La contaminación de las muestras con ADN humano es una preocupación significativa en la secuenciación del SARS-CoV-2, ya que puede afectar la interpretación de los datos y llevar a conclusiones incorrectas sobre la variabilidad genética y la epidemiología del virus (Goldshmidt, 2020). 
 
@@ -17,7 +17,7 @@ Esta contaminación puede ocurrir durante la recolección de muestras, el proces
 
  
 
-## 2. Antecedentes 
+## 3. Antecedentes 
 
 Desde el inicio de la pandemia de COVID-19, la secuenciación genómica del SARS-CoV-2 se ha convertido en una herramienta crucial para comprender la evolución del virus, identificar variantes emergentes y rastrear la propagación de la enfermedad. Esta técnica permite analizar el ADN del virus y detectar mutaciones que podrían influir en su transmisibilidad, gravedad y respuesta a tratamientos y vacunas (Álvarez-Díaz et al., 2020). 
 
@@ -29,16 +29,13 @@ Aunque existen métodos para identificar y eliminar lecturas humanas de los dato
 
  
 
-## Objetivos 
+## 4. Objetivos 
 
  
 
- 
 
-
-
-# 2. FLUJO DE TRABAJO
-## 2.2 Revisión de la calidad de las secuencias
+## 5. FLUJO DE TRABAJO
+### 5.1 Revisión de la calidad de las secuencias
 Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
 la respectiva descarga.
 
@@ -83,7 +80,7 @@ Figura 7 Control de calidad de "SRR10903402_r2.fq.gz"
 ![WhatsApp Image 2024-03-23 at 2 26 23 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a6fe6f50-05b9-4fd1-b6ab-2f8238f4ed81)
 
 
-## 2.3 Obtención de los datos 
+### 5.2 Obtención de los datos 
 
 Importación de las secuencias crudas del SARS-COV-2 obtenidas de la plataforma Zenodo, mismas secuencias que en formato FASTQ se subieron a la plataforma Galaxy. 
 
@@ -92,7 +89,7 @@ Obtención de datos
 ![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7bf073dd-de2f-4cee-b413-d8f648b08bbc)
 
 
-### 2.4 EMPAREJAMIENTO DE SECUENCIAS 
+### 5.3 Emparejamiento de secuencias
 
 Dentro de la plataforma Galaxy se seleccionó las 4 secuencias importadas a emparejar, se colocó un indicador "unpair forward"="_r1.fq.gz" y "unpaired reverse"="_r2.fq.gz" para el emparejamiento de las dos muestras "SRR10903401" y "SRR10903402".
 
@@ -100,7 +97,7 @@ Dentro de la plataforma Galaxy se seleccionó las 4 secuencias importadas a empa
 Emparejamiento de secuencias Fastq de lecturas forward y reverse
 ![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/bd263fd4-f99b-4d6e-b0e9-854853bb5eb0)
 
-### 2.5 LECTURA, RECORTE Y  MAPEO 
+### 5.4 Lectura, corte y mapeo 
 
 En la página de Galaxy previamente se crearon dos ficheros "pair" y "unpair". Posteriormente en la sección de herramientas seleccionamos "Trimmomatic" con las opciones por default, se cambió "Paired-end (as collection)" y como FASTQ dataset se seleccionó la carpeta de nuestras secuencias pareadas.
 
