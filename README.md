@@ -125,13 +125,20 @@ La herramienta Samtools fastX, es importante por el filtrado de lecturas, el rec
 Uso de la herramienta Samtool fastX.
 ![WhatsApp Image 2024-03-23 at 3 28 39 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/38eb2564-6727-4141-adba-823662654206)
 
+Se utilizó la herramienta "Select lines that match an expresión" escogiendo el output previamente creado "Samtools fastx", con la opción de "Matching" y el patrón "^>.+" que nos permite escoger aquellas líneas que comienzan con un carácter ">" para retener los identificadores.
 
 **Figura 13.**
 Uso de la herramienta Select line.
 ![WhatsApp Image 2024-03-23 at 3 39 48 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/daee3f4b-fb5a-4e0c-af7a-dcb44ace1817)
 
+Para la herramienta " Replace Text in entire line" usamos los parámetros de encontrar el patrón "^>(.+)" y remplazarlo con "\1" para hacer que el programa identifique las líneas que inician con ">" y reemplacenal caracter "(.+)" por " \1.
 
-## Fuentes: 
+**Figura 14.**
+Uso de la herramienta Replace text in entire line.
+![WhatsApp Image 2024-03-23 at 3 48 53 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/e92c92fa-ff39-4cf8-8c2e-c48d8b74ef50)
+
+### 5.6 Utilice los identificadores de lectura no humanos para extraer las lecturas de interés de las entradas originales
+## Referencias 
 
 Goldschmidt, Pablo. (2020). Dificultades en la detección de genomas del nuevo coronavirus 2 (SARS CoV-2).. Revista Argentina de Salud Pública, 12(Supl. 1), 17. Epub 30 de diciembre de 2020. Recuperado en 23 de marzo de 2024, de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1853-810X2020000300017&lng=es&tlng=es. 
 
