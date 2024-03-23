@@ -1,4 +1,4 @@
-
+<img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/52f9dd04-42ee-41b3-bad2-7631574e2b3b"><img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/578e927b-eac9-4d81-a2d5-1895e6636019"><img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/f4870c1d-1f1d-4aea-99c0-0569b1cc3a48">
 **Autores:** 
 + María Belén Apolo Renjifo
 + Eduardo Giuseppe Basantes Rivera
@@ -145,26 +145,32 @@ Uso de la herramienta Replace text in entire line.
 
 Para descomprimir las secuencias no pareadas se utilizó la herramienta "Unzip" (Maier, 2021). 
 
-**Figura 15**
+**Figura 15.**
 Uso de la herramienta Unzip
 ![WhatsApp Image 2024-03-23 at 3 57 45 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a2e0d42a-eddd-41fb-8590-b8ddc057a465)
 
 Obtuvimos dos subconjuntos de datos a partir de la secuencias principal con la herramienta "Seqkt_subseq" ; la Figura 16 nos muestra la creación del subconjunto "forward" y la Figura 17 el subconjunto "reverse" (Maier, 2021). 
 
-**Figura 16**
+**Figura 16.**
 Creación subconjunto "forward"
 
 ![WhatsApp Image 2024-03-23 at 3 57 45 PM (1)](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/6aae1b70-3396-49e0-b7be-726ef27c6f28)
 
-**Figura 17**
+**Figura 17.**
 Creación subconjunto "reverse".
 ![WhatsApp Image 2024-03-23 at 4 15 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7cf887d5-252c-4741-b380-9c762f1dd586)
 
 Para finalizar transformamos los subconjuntos a archivos comprimidos para su uso posterior con la herramienta "Zipcollection" (Maier, 2021).
 
-**Figura 18**
+**Figura 18.**
 Creación de un archivo comprimido.
 ![WhatsApp Image 2024-03-23 at 4 27 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/b476b0e0-e43e-49e2-a5be-743d215703a8)
+
+### 5.7 Flujo de trabajo de Galaxy 
+
+**Figura 19.**
+Flujo de trabajo extraido de Galaxy EU
+<img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/490277d2-fc77-46d2-8647-5d6a75aaf3f2">
 
 ## 6. Resultados
 
