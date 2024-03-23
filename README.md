@@ -5,7 +5,6 @@
 - Joselyn Katerine Tulcanaz Montesdoca
 
 
-Joselyn Katerine Tulcanaz Montesdoca
 
 **Fecha:**  Marzo del 2024
 
