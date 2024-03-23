@@ -1,8 +1,9 @@
 # Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2
 ## OBJETIVOS 
 ##
+# MARCO TEÓRICO
 ##
-
+# METODOLOGÍA 
 ## REVISIÓN DE LA CALIDAD DE LAS SECUENCIAS A UTILIZAR
 Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
 la respectiva descarga.
@@ -67,8 +68,12 @@ Emparejamiento de secuencias Fastq de lecturas forward y reverse
 
 ### LECTURA, RECORTE Y  MAPEO 
 
+En la página de Galaxy previamente se crearon dos ficheros "pair" y "unpair". Posteriormente en la sección de herramientas seleccionamos "Trimmomatic" con las opciones por default, se cambió "Paired-end (as collection)" y como FASTQ dataset se seleccionó la carpeta de nuestras secuencias pareadas.
+
 **Figura 10.**
-Control
+Trimmomatic para recorte de secuencias.
+![WhatsApp Image 2024-03-23 at 2 35 24 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/0cb436e5-ea89-4f0a-b7d5-fcf7bae8d5a0)
+
 
 
 
