@@ -113,15 +113,22 @@ Trimmomatic para recorte de secuencias.
 Se utilizó la herramienta map with BWA-MEM para la alineación de secuencias de las lecturas generadas respecto a un genoma de referencia.
 
 **Figura 11.**
-Uso de la herramienta map with BWA-MEM
+Uso de la herramienta map with BWA-MEM.
 ![WhatsApp Image 2024-03-23 at 3 31 15 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/17104b9a-37c9-4943-8454-f1fe6a900e2c)
 
-La herramienta Samtools fastX, es importante por el filtrado de lecturas, el recorte de adaptadores y el respectivo control de calidad y así manipular y analizar archivos en formato fastq. 
+
+### 5.5 Obtención de los identificadores de pares de lectura no humanos
+
+La herramienta Samtools fastX, es importante por el filtrado de lecturas, el recorte de adaptadores y el respectivo control de calidad y así manipular y analizar archivos en formato fastq.
 
 **Figura 12.**
-Uso de la herramienta Samtool fastX
+Uso de la herramienta Samtool fastX.
 ![WhatsApp Image 2024-03-23 at 3 28 39 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/38eb2564-6727-4141-adba-823662654206)
 
+
+**Figura 13.**
+Uso de la herramienta Select line.
+![WhatsApp Image 2024-03-23 at 3 39 48 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/daee3f4b-fb5a-4e0c-af7a-dcb44ace1817)
 
 
 ## Fuentes: 
