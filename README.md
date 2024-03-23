@@ -8,9 +8,8 @@
 
 Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 
 
-# 1. Marco teórico
 
-## 1.1 Problema 
+## 1. Problema 
 
 Aunque la secuenciación genómica del SARS-CoV-2 es fundamental para comprender su evolución, identificar nuevas variantes y desarrollar estrategias de control, la presencia de lecturas humanas en los datos genómicos puede distorsionar los resultados y dificultar el análisis preciso. La contaminación de las muestras con ADN humano es una preocupación significativa en la secuenciación del SARS-CoV-2, ya que puede afectar la interpretación de los datos y llevar a conclusiones incorrectas sobre la variabilidad genética y la epidemiología del virus (Goldshmidt, 2020). 
 
@@ -18,7 +17,7 @@ Esta contaminación puede ocurrir durante la recolección de muestras, el proces
 
  
 
-## Antecedentes 
+## 2. Antecedentes 
 
 Desde el inicio de la pandemia de COVID-19, la secuenciación genómica del SARS-CoV-2 se ha convertido en una herramienta crucial para comprender la evolución del virus, identificar variantes emergentes y rastrear la propagación de la enfermedad. Esta técnica permite analizar el ADN del virus y detectar mutaciones que podrían influir en su transmisibilidad, gravedad y respuesta a tratamientos y vacunas (Álvarez-Díaz et al., 2020). 
 
