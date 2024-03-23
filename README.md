@@ -8,8 +8,9 @@
 
 Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 
 
- 
-## Problema 
+# 1. Marco teórico
+
+## 1.1 Problema 
 
 Aunque la secuenciación genómica del SARS-CoV-2 es fundamental para comprender su evolución, identificar nuevas variantes y desarrollar estrategias de control, la presencia de lecturas humanas en los datos genómicos puede distorsionar los resultados y dificultar el análisis preciso. La contaminación de las muestras con ADN humano es una preocupación significativa en la secuenciación del SARS-CoV-2, ya que puede afectar la interpretación de los datos y llevar a conclusiones incorrectas sobre la variabilidad genética y la epidemiología del virus (Goldshmidt, 2020). 
 
@@ -37,10 +38,8 @@ Aunque existen métodos para identificar y eliminar lecturas humanas de los dato
 
 
 
-
-##
-# FLUJO DE TRABAJO
-## REVISIÓN DE LA CALIDAD DE LAS SECUENCIAS A UTILIZAR
+# 2. FLUJO DE TRABAJO
+## 2.2 Revisión de la calidad de las secuencias
 Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
 la respectiva descarga.
 
@@ -85,7 +84,7 @@ Figura 7 Control de calidad de "SRR10903402_r2.fq.gz"
 ![WhatsApp Image 2024-03-23 at 2 26 23 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a6fe6f50-05b9-4fd1-b6ab-2f8238f4ed81)
 
 
-## OBTENCIÓN DE DATOS 
+## 2.3 Obtención de los datos 
 
 Importación de las secuencias crudas del SARS-COV-2 obtenidas de la plataforma Zenodo, mismas secuencias que en formato FASTQ se subieron a la plataforma Galaxy. 
 
@@ -106,6 +105,11 @@ Emparejamiento de secuencias Fastq de lecturas forward y reverse
 
 En la página de Galaxy previamente se crearon dos ficheros "pair" y "unpair". Posteriormente en la sección de herramientas seleccionamos "Trimmomatic" con las opciones por default, se cambió "Paired-end (as collection)" y como FASTQ dataset se seleccionó la carpeta de nuestras secuencias pareadas.
 
+**Figura 10.**
+Trimmomatic para recorte de secuencias.
+![WhatsApp Image 2024-03-23 at 2 35 24 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/0cb436e5-ea89-4f0a-b7d5-fcf7bae8d5a0)
+
+
 
 
 ## Fuentes: 
@@ -117,10 +121,6 @@ Goldschmidt, Pablo. (2020). Dificultades en la detección de genomas del nuevo c
 Naqvi, A. A. T., Fatima, K., Mohammad, T., Fatima, U., Singh, I., Singh, A., Atif, S. M., Hariprasad, G., Hasan, G. M., & Hassan, I. (2020). Insights into SARS-CoV-2 genome, structure, evolution, pathogenesis and therapies: Structural genomics approach. Biochimica Et Biophysica Acta (BBA) - Molecular Basis Of Disease, 1866(10), 165878. https://doi.org/10.1016/j.bbadis.2020.165878 
 
  
-
-**Figura 10.**
-Trimmomatic para recorte de secuencias.
-![WhatsApp Image 2024-03-23 at 2 35 24 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/0cb436e5-ea89-4f0a-b7d5-fcf7bae8d5a0)
 
 
 
