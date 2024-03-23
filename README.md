@@ -12,4 +12,15 @@ Obtención de datos
 
 
 
+### EMPAREJAMIENTO DE SECUENCIAS 
+
+Dentro de la plataforma Galaxy se seleccionó las 4 secuencias importadas a emparejar, se colocó un indicador "unpair forward"="_r1.fq.gz" y "unpaired reverse"="_r2.fq.gz" para el emparejamiento de las dos muestras "SRR10903401" y "SRR10903402".
+
+### Figura 2. }
+Emparejamiento de secuencias Fastq de lecturas forward y reverse
+![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/bd263fd4-f99b-4d6e-b0e9-854853bb5eb0)
+
+
+
+
 
