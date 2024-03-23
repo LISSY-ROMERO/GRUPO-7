@@ -137,7 +137,25 @@ Para la herramienta " Replace Text in entire line" usamos los parámetros de enc
 Uso de la herramienta Replace text in entire line.
 ![WhatsApp Image 2024-03-23 at 3 48 53 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/e92c92fa-ff39-4cf8-8c2e-c48d8b74ef50)
 
-### 5.6 Utilice los identificadores de lectura no humanos para extraer las lecturas de interés de las entradas originales
+### 5.6  Identificación de lecturas no humanos para extraer las lecturas de interés de las entradas originales
+
+Para descomprimir las secuencias no pareadas se utilizó la herramienta "Unzip". 
+
+**Figura 15**
+Uso de la herramienta Unzip
+![WhatsApp Image 2024-03-23 at 3 57 45 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a2e0d42a-eddd-41fb-8590-b8ddc057a465)
+
+Obtuvimos dos subconjuntos de datos a partir de la secuencias principal con la herramienta "Seqkt_subseq" ; la Figura 16 nos muestra la creación del subconjunto "forward" y la Figura 17 el subconjunto "reverse". 
+
+**Figura 16**
+Creación subconjunto "forward"
+
+![WhatsApp Image 2024-03-23 at 3 57 45 PM (1)](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/6aae1b70-3396-49e0-b7be-726ef27c6f28)
+
+**Figura 17**
+Creación subconjunto "reverse"
+![WhatsApp Image 2024-03-23 at 4 15 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7cf887d5-252c-4741-b380-9c762f1dd586)
+
 ## Referencias 
 
 Goldschmidt, Pablo. (2020). Dificultades en la detección de genomas del nuevo coronavirus 2 (SARS CoV-2).. Revista Argentina de Salud Pública, 12(Supl. 1), 17. Epub 30 de diciembre de 2020. Recuperado en 23 de marzo de 2024, de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1853-810X2020000300017&lng=es&tlng=es. 
