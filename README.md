@@ -1,4 +1,4 @@
-<img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/52f9dd04-42ee-41b3-bad2-7631574e2b3b"><img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/578e927b-eac9-4d81-a2d5-1895e6636019"><img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/f4870c1d-1f1d-4aea-99c0-0569b1cc3a48">
+
 **Autores:** 
 + María Belén Apolo Renjifo
 + Eduardo Giuseppe Basantes Rivera
