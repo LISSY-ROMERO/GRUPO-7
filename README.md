@@ -36,8 +36,12 @@ Aunque existen métodos para identificar y eliminar lecturas humanas de los dato
  
 ## 4. Objetivos 
 
- 
+### 4.1 Objetivo General
+Establecer un flujo de trabajo eficiente y reproducible para la eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2.
 
+### 4.2 Objetivos Especificos
++ Crear scripts en Bash utilizando la terminal de Linux para evaluar la calidad de secuencias de SARS-CoV-2.
++ Configurar flujos de trabajo en la plataforma Galaxy para la eliminación de lecturas humanas, integrando herramientas de alineamiento y filtrado de datos.
 
 ## 5. Flujo de trabajo
 ### 5.1 Revisión de la calidad de las secuencias
@@ -157,6 +161,7 @@ Creación subconjunto "reverse".
 ![WhatsApp Image 2024-03-23 at 4 15 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7cf887d5-252c-4741-b380-9c762f1dd586)
 
 Para finalizar transformamos los subconjuntos a archivos comprimidos para su uso posterior con la herramienta "Zipcollection" (Maier, 2021).
+
 **Figura 18**
 Creación de un archivo comprimido.
 ![WhatsApp Image 2024-03-23 at 4 27 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/b476b0e0-e43e-49e2-a5be-743d215703a8)
