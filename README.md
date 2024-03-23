@@ -176,7 +176,7 @@ Flujo de trabajo extraido de Galaxy EU
 Se lograron obtener dos secuencias de ADN viral de SARS-CoV-2 completamente libres de cualquier contaminación por lecturas humanas, asegurando así su integridad y listas para ser empleadas en futuros estudios.
 
 ## 7. Conclusiones
-+ La eliminación exitosa de lecturas humanas de los datos de secuenciación del SARS-CoV-2 es fundamental para garantizar la integridad y la precisión de los resultados. Este logro permite una interpretación más precisa de la variabilidad genética del virus y su epidemiología, evitando conclusiones erróneas que podrían afectar las estrategias de control de la pandemia y el desarrollo de tratamientos y vacunas.
++ La correcta eliminación de las lecturas humanas de los datos de secuenciación del SARS-CoV-2 es esencial para asegurar la fiabilidad y precisión de los resultados. Este proceso facilita una interpretación más exacta de la diversidad genética del virus y su epidemiología, evitando así conclusiones incorrectas que podrían comprometer las estrategias de control de la pandemia y el progreso en el desarrollo de tratamientos y vacunas.
 + El establecimiento de un flujo de trabajo eficiente y reproducible para la eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 es un paso crucial hacia una investigación más rigurosa y confiable. La implementación de scripts y flujos de trabajo específicos, como el uso de herramientas de alineamiento y filtrado de datos, proporciona una base sólida para futuros estudios genómicos del virus, permitiendo una mejor comprensión de su biología y comportamiento epidemiológico.
   
 ## Referencias 
