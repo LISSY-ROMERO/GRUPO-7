@@ -1,8 +1,10 @@
 
 **Autores:** 
-* María Belén Apolo Renjifo
++ María Belén Apolo Renjifo
 + Eduardo Giuseppe Basantes Rivera
-- Joselyn Katerine Tulcanaz Montesdoca
++ Lissy Katherine Romero Jadán
++ Joselyn Katerine Tulcanaz Montesdoca
+  
 
 
 
