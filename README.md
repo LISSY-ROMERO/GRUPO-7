@@ -1,5 +1,36 @@
-# Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2
-##
+## Tema 
+
+Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 
+
+ 
+## Problema 
+
+Aunque la secuenciación genómica del SARS-CoV-2 es fundamental para comprender su evolución, identificar nuevas variantes y desarrollar estrategias de control, la presencia de lecturas humanas en los datos genómicos puede distorsionar los resultados y dificultar el análisis preciso. La contaminación de las muestras con ADN humano es una preocupación significativa en la secuenciación del SARS-CoV-2, ya que puede afectar la interpretación de los datos y llevar a conclusiones incorrectas sobre la variabilidad genética y la epidemiología del virus (Goldshmidt, 2020). 
+
+Esta contaminación puede ocurrir durante la recolección de muestras, el procesamiento en el laboratorio o la manipulación de los datos. La presencia de ADN humano en las muestras puede deberse a una amplia gama de factores, como la contaminación cruzada durante la toma de muestras, la manipulación inadecuada en el laboratorio o la contaminación ambiental. Además, la falta de protocolos estandarizados para la eliminación de lecturas humanas en los datos de secuenciación del SARS-CoV-2 puede exacerbar este problema (Goldshmidt, 2020). 
+
+ 
+
+## Antecedentes 
+
+Desde el inicio de la pandemia de COVID-19, la secuenciación genómica del SARS-CoV-2 se ha convertido en una herramienta crucial para comprender la evolución del virus, identificar variantes emergentes y rastrear la propagación de la enfermedad. Esta técnica permite analizar el ADN del virus y detectar mutaciones que podrían influir en su transmisibilidad, gravedad y respuesta a tratamientos y vacunas (Álvarez-Díaz et al., 2020). 
+
+Durante el proceso de recolección, procesamiento y secuenciación de muestras de SARS-CoV-2, existe el riesgo de contaminación con ADN humano. Esta contaminación puede ocurrir debido a diversos factores, como la manipulación inadecuada de muestras, la contaminación cruzada en el laboratorio o la presencia de células humanas en las muestras biológicas (Goldshmidt, 2020). 
+
+La presencia de lecturas humanas en los datos genómicos del SARS-CoV-2 puede distorsionar los resultados de la secuenciación, dificultando la interpretación precisa de la variabilidad genética del virus y su epidemiología. Esto puede llevar a conclusiones erróneas sobre la evolución del virus, la efectividad de las intervenciones de salud pública y el desarrollo de estrategias de control de la pandemia (Álvarez-Díaz et al., 2020). 
+
+Aunque existen métodos para identificar y eliminar lecturas humanas de los datos de secuenciación, la mayoría resultan complicados por la variedad de protocolos y técnicas de extracción de muestras de ADN del tipo viral, sin embargo, una de las maneras más eficientes para este proceso de eliminación de secuencias especificas es la de alineamiento contra el genoma humano de referencia y el filtrado por características específicas del ADN humano (Naqvi et al., 2020). 
+
+ 
+
+## Objetivos 
+
+ 
+
+ 
+
+## Flujo de trabajo 
+
 # MARCO TEÓRICO
 ##
 # METODOLOGÍA 
@@ -68,6 +99,18 @@ Emparejamiento de secuencias Fastq de lecturas forward y reverse
 ### LECTURA, RECORTE Y  MAPEO 
 
 En la página de Galaxy previamente se crearon dos ficheros "pair" y "unpair". Posteriormente en la sección de herramientas seleccionamos "Trimmomatic" con las opciones por default, se cambió "Paired-end (as collection)" y como FASTQ dataset se seleccionó la carpeta de nuestras secuencias pareadas.
+
+
+
+## Fuentes: 
+
+Goldschmidt, Pablo. (2020). Dificultades en la detección de genomas del nuevo coronavirus 2 (SARS CoV-2).. Revista Argentina de Salud Pública, 12(Supl. 1), 17. Epub 30 de diciembre de 2020. Recuperado en 23 de marzo de 2024, de http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1853-810X2020000300017&lng=es&tlng=es. 
+
+Álvarez-Díaz, D. A., Laiton‐Donato, K., Franco-Muñoz, C., & Mercado, M. (2020). Secuenciación del SARS-CoV-2: la iniciativa tecnológica para fortalecer los sistemas de alerta temprana ante emergencias de salud pública en Latinoamérica y el Caribe. Biomedica, 40(Supl. 2), 188-197. https://doi.org/10.7705/biomedica.5841 
+
+Naqvi, A. A. T., Fatima, K., Mohammad, T., Fatima, U., Singh, I., Singh, A., Atif, S. M., Hariprasad, G., Hasan, G. M., & Hassan, I. (2020). Insights into SARS-CoV-2 genome, structure, evolution, pathogenesis and therapies: Structural genomics approach. Biochimica Et Biophysica Acta (BBA) - Molecular Basis Of Disease, 1866(10), 165878. https://doi.org/10.1016/j.bbadis.2020.165878 
+
+ 
 
 **Figura 10.**
 Trimmomatic para recorte de secuencias.
