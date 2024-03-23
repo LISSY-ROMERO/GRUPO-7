@@ -34,7 +34,7 @@ Aunque existen métodos para identificar y eliminar lecturas humanas de los dato
  
 
 
-## 5. FLUJO DE TRABAJO
+## 5. Flujo de trabajo
 ### 5.1 Revisión de la calidad de las secuencias
 Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
 la respectiva descarga.
