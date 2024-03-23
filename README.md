@@ -1,3 +1,9 @@
+
+**Autores:** 
+
+**Fecha:**  Marzo del 2024
+
+
 ## Tema 
 
 Eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 
