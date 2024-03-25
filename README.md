@@ -45,8 +45,9 @@ Establecer un flujo de trabajo eficiente y reproducible para la eliminación de 
 
 ## 5. Flujo de trabajo
 ### 5.1 Revisión de la calidad de las secuencias
-Previamente a utilizar las secuencias objetivo, es necesario evaluar su calidad individualmente. Para ello primero se realizó 
-la respectiva descarga (Quality control, s.f.).
+Para la evalucación de la calidad calidad individual de cada secuencia objetivo, se utilizó la máquina virtual con interfaz Lubuntu. Para ello primero se realizó 
+la respectiva descarga de los archivos, descomprensión de los mismos en la carpeta del usuario y se inició la terminal(Quality control, s.f.).
+En la terminal se utilizó el comando "fastqc" para evaluar las cuatro secuencias. 
 
 **Figura 1.** 
 Ejecución de las cuatro secuencias en FastQ en la terminal y uso del comando "fastqc".
