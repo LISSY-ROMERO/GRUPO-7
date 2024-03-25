@@ -52,8 +52,8 @@ la respectiva descarga de los archivos, descomprensión de los mismos en la carp
 En la terminal se utilizó el comando "fastqc" para evaluar las cuatro secuencias. 
 
 **Figura 1.** 
-
 Ejecución de las cuatro secuencias en FastQ en la terminal y uso del comando "fastqc".
+
 ![WhatsApp Image 2024-03-23 at 1 55 28 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/8a799aad-7c05-47f6-b3ef-c7a38d54948e)
 
 Se utilizó el comando "ls" para observar los archivos .HTML creados para cada secuencia (Quality control, s.f.).
