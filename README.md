@@ -174,6 +174,7 @@ Flujo de trabajo extraido de Galaxy EU
 
 ## 6. Resultados
 Se lograron obtener dos secuencias de ADN viral de SARS-CoV-2 completamente libres de cualquier contaminación por lecturas humanas, asegurando así su integridad y listas para ser empleadas en futuros estudios.
+
 **Figura 20.**
 Secuencias comprimidas
 ![image](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163610087/94948842-b48f-4621-aad7-8a9c02117a86)
