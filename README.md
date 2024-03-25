@@ -1,5 +1,6 @@
 
 **Autores:** 
+
 + María Belén Apolo Renjifo
 + Eduardo Giuseppe Basantes Rivera
 + Lissy Katherine Romero Jadán
@@ -44,6 +45,7 @@ Establecer un flujo de trabajo eficiente y reproducible para la eliminación de 
 + Configurar flujos de trabajo en la plataforma Galaxy para la eliminación de lecturas humanas, integrando herramientas de alineamiento y filtrado de datos.
 
 ## 5. Flujo de trabajo
+
 ### 5.1 Revisión de la calidad de las secuencias
 Para la evalucación de la calidad calidad individual de cada secuencia objetivo, se utilizó la máquina virtual con interfaz Lubuntu. Para ello primero se realizó 
 la respectiva descarga de los archivos, descomprensión de los mismos en la carpeta del usuario y se inició la terminal(Quality control, s.f.).
@@ -51,42 +53,49 @@ En la terminal se utilizó el comando "fastqc" para evaluar las cuatro secuencia
 
 **Figura 1.** 
 Ejecución de las cuatro secuencias en FastQ en la terminal y uso del comando "fastqc".
+
 ![WhatsApp Image 2024-03-23 at 1 55 28 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/8a799aad-7c05-47f6-b3ef-c7a38d54948e)
 
 Se utilizó el comando "ls" para observar los archivos .HTML creados para cada secuencia (Quality control, s.f.).
 
 **Figura 2.**
 Ejecución del comando "ls" para enlistar los archivos HTML creados. 
+
 ![WhatsApp Image 2024-03-23 at 1 55 51 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/22151375-5376-488d-b558-ff37b57eefc4)
 
 Dentro de Virtual Box se ingresó a las carpetas con las secuencias a analizar y se observó la creación específica de estos documentos .HTML dentro del computador (Quality control, s.f.).
 
 **Figura 3.** 
 Visualización de archivos .HTML en carpetas de Virtual Box.
+
 ![WhatsApp Image 2024-03-23 at 1 56 27 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/40c133f6-8be3-4935-a358-b8226ff0757e)
 
 En los resultados del control de calidad se identificó que hay un número total de secuencias de 476632, con una longitud de 140 - 151 y %GC 44. De acuerdo a las técnicas Illumina 1.9 encoding se considera que tiene una puntuación de calidad buena para todas las bases y para todas las secuencias sin superar los límites de error. Sin embargo, el contenido de adaptadores, secuencias sobrerrepresentadas y la cantidad de GC no cumplen los estándares, observe la Figura 4.
 
 **Figura 4.**
 Control de calidad de "SRR10903401_r1.fq.gz"
+
 ![WhatsApp Image 2024-03-23 at 1 56 40 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/bdf74be0-6134-45db-a529-bf2a9e9383b2)
 
 En los resultados del control de calidad se identificó que hay un número total de secuencias de 476632, con una longitud de 140 - 151 y %GC 43. De acuerdo a las técnicas Illumina 1.9 encoding se considera que tiene una puntuación de calidad aceptable para todas las bases y para todas las secuencias, ya que en su mayoría no superan el límite de error. Sin embargo, el contenido de adaptadores, secuencias sobrerrepresentadas y la cantidad de GC no cumplen los estándares, observe la Figura 5.
 
 **Figura 5.** 
 Control de calidad de "SRR10903401_r2.fq.gz"
+
 ![WhatsApp Image 2024-03-23 at 2 22 05 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/c4d26ea4-3249-4def-8225-2fc4b80f90f1)
 
 En los resultados del control de calidad se identificó que hay un número total de secuencias de 676694, con una longitud de 140 - 151 y %GC 43. De acuerdo a las técnicas Illumina 1.9 encoding se considera que tiene una puntuación de calidad buena para todas las bases y para todas las secuencias, sin superar el límite de error. Sin embargo, el contenido de adaptadores, secuencias sobrerrepresentadas y la cantidad de GC no cumplen los estándares, observe la Figura 6.
 
 **Figura 6.**
-Control de calidad de "SRR10903402_r1.fq.gz"
+Control de calidad de "SRR10903402_r1.fq.gz".
+
 ![WhatsApp Image 2024-03-23 at 2 24 29 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/b4f3d9a8-8601-4616-bdc4-faf250c3c597)
 
 En los resultados del control de calidad se identificó que hay un número total de secuencias de 676694, con una longitud de 140 - 151 y %GC 43. De acuerdo a las técnicas Illumina 1.9 encoding se considera que tiene una puntuación de calidad aceptable para todas las bases y para todas las secuencias, ya que en su mayoría no superan el límite de error. Sin embargo, el contenido de adaptadores, secuencias sobrerrepresentadas y la cantidad de GC no cumplen los estándares, observe la Figura 7.
 
 **Figura 7.**
-Figura 7 Control de calidad de "SRR10903402_r2.fq.gz"
+Figura 7 Control de calidad de "SRR10903402_r2.fq.gz".
+
 ![WhatsApp Image 2024-03-23 at 2 26 23 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a6fe6f50-05b9-4fd1-b6ab-2f8238f4ed81)
 
 
@@ -95,7 +104,8 @@ Figura 7 Control de calidad de "SRR10903402_r2.fq.gz"
 Importación de las secuencias crudas del SARS-COV-2 obtenidas de la plataforma Zenodo, mismas secuencias que en formato FASTQ se subieron a la plataforma Galaxy (Maier, 2021). 
 
 **Figura 8.**
-Obtención de datos
+Obtención de datos.
+
 ![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7bf073dd-de2f-4cee-b413-d8f648b08bbc)
 
 
@@ -104,7 +114,8 @@ Obtención de datos
 Dentro de la plataforma Galaxy se seleccionó las 4 secuencias importadas a emparejar, se colocó un indicador "unpair forward"="_r1.fq.gz" y "unpaired reverse"="_r2.fq.gz" para el emparejamiento de las dos muestras "SRR10903401" y "SRR10903402" (Maier, 2021).
 
 **Figura 9.** 
-Emparejamiento de secuencias Fastq de lecturas forward y reverse
+Emparejamiento de secuencias Fastq de lecturas forward y reverse.
+
 ![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/bd263fd4-f99b-4d6e-b0e9-854853bb5eb0)
 
 ### 5.4 Lectura, corte y mapeo 
@@ -113,12 +124,14 @@ En la página de Galaxy previamente se crearon dos ficheros "pair" y "unpair". P
 
 **Figura 10.**
 Trimmomatic para recorte de secuencias.
+
 ![WhatsApp Image 2024-03-23 at 2 35 24 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/0cb436e5-ea89-4f0a-b7d5-fcf7bae8d5a0)
 
 Se utilizó la herramienta map with BWA-MEM para la alineación de secuencias de las lecturas generadas respecto a un genoma de referencia (Maier, 2021).
 
 **Figura 11.**
 Uso de la herramienta map with BWA-MEM.
+
 ![WhatsApp Image 2024-03-23 at 3 31 15 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/17104b9a-37c9-4943-8454-f1fe6a900e2c)
 
 
@@ -128,18 +141,21 @@ La herramienta Samtools fastX, es importante por el filtrado de lecturas, el rec
 
 **Figura 12.**
 Uso de la herramienta Samtool fastX.
+
 ![WhatsApp Image 2024-03-23 at 3 28 39 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/38eb2564-6727-4141-adba-823662654206)
 
 Se utilizó la herramienta "Select lines that match an expresión" escogiendo el output previamente creado "Samtools fastx", con la opción de "Matching" y el patrón "^>.+" que nos permite escoger aquellas líneas que comienzan con un carácter ">" para retener los identificadores (Maier, 2021).
 
 **Figura 13.**
 Uso de la herramienta Select line.
+
 ![WhatsApp Image 2024-03-23 at 3 39 48 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/daee3f4b-fb5a-4e0c-af7a-dcb44ace1817)
 
 Para la herramienta " Replace Text in entire line" usamos los parámetros de encontrar el patrón "^>(.+)" y remplazarlo con "\1" para hacer que el programa identifique las líneas que inician con ">" y reemplacenal caracter "(.+)" por " \1 (Maier, 2021).
 
 **Figura 14.**
 Uso de la herramienta Replace text in entire line.
+
 ![WhatsApp Image 2024-03-23 at 3 48 53 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/e92c92fa-ff39-4cf8-8c2e-c48d8b74ef50)
 
 ### 5.6  Identificación de lecturas no humanos para extraer las lecturas de interés de las entradas originales
@@ -147,50 +163,59 @@ Uso de la herramienta Replace text in entire line.
 Para descomprimir las secuencias no pareadas se utilizó la herramienta "Unzip" (Maier, 2021). 
 
 **Figura 15.**
-Uso de la herramienta Unzip
+Uso de la herramienta Unzip.
+
 ![WhatsApp Image 2024-03-23 at 3 57 45 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/a2e0d42a-eddd-41fb-8590-b8ddc057a465)
 
 Obtuvimos dos subconjuntos de datos a partir de la secuencias principal con la herramienta "Seqkt_subseq" ; la Figura 16 nos muestra la creación del subconjunto "forward" y la Figura 17 el subconjunto "reverse" (Maier, 2021). 
 
 **Figura 16.**
-Creación subconjunto "forward"
+Creación subconjunto "forward".
 
 ![WhatsApp Image 2024-03-23 at 3 57 45 PM (1)](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/6aae1b70-3396-49e0-b7be-726ef27c6f28)
 
 **Figura 17.**
 Creación subconjunto "reverse".
+
 ![WhatsApp Image 2024-03-23 at 4 15 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/7cf887d5-252c-4741-b380-9c762f1dd586)
 
 Para finalizar transformamos los subconjuntos a archivos comprimidos para su uso posterior con la herramienta "Zipcollection" (Maier, 2021).
 
 **Figura 18.**
 Creación de un archivo comprimido.
+
 ![WhatsApp Image 2024-03-23 at 4 27 20 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/b476b0e0-e43e-49e2-a5be-743d215703a8)
 
 ### 5.7 Flujo de trabajo de Galaxy 
 
 **Figura 19.**
-Flujo de trabajo extraido de Galaxy EU
+Flujo de trabajo extraido de Galaxy EU.
+
 <img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/490277d2-fc77-46d2-8647-5d6a75aaf3f2">
 
 ## 6. Resultados
+
 Se lograron obtener dos secuencias de ADN viral de SARS-CoV-2 completamente libres de cualquier contaminación por lecturas humanas, asegurando así su integridad y listas para ser empleadas en futuros estudios.
 
 **Figura 20.**
-Secuencias comprimidas
+Secuencias comprimidas.
+
 ![image](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163610087/94948842-b48f-4621-aad7-8a9c02117a86)
 
 **Figura 21.**
-Subconjunto final 1
+Subconjunto final 1.
+
 ![image](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163610087/8bd2e043-cbbf-4c36-a7a1-da7016890454)
 
 **Figura 22.**
-Subconjunto final 2
+Subconjunto final 2.
+
 ![image](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163610087/72c8d09b-b464-4041-baa8-4c1109b32615)
 
 
 
 ## 7. Conclusiones
+
 + La correcta eliminación de las lecturas humanas de los datos de secuenciación del SARS-CoV-2 es esencial para asegurar la fiabilidad y precisión de los resultados. Este proceso facilita una interpretación más exacta de la diversidad genética del virus y su epidemiología, evitando así conclusiones incorrectas que podrían comprometer las estrategias de control de la pandemia y el progreso en el desarrollo de tratamientos y vacunas.
 + El establecimiento de un flujo de trabajo eficiente y reproducible para la eliminación de lecturas humanas de los datos de secuenciación del SARS-CoV-2 es un paso crucial hacia una investigación más rigurosa y confiable. La implementación de scripts y flujos de trabajo específicos, como el uso de herramientas de alineamiento y filtrado de datos, proporciona una base sólida para futuros estudios genómicos del virus, permitiendo una mejor comprensión de su biología y comportamiento epidemiológico.
   
