@@ -116,7 +116,7 @@ Dentro de la plataforma Galaxy se seleccionó las 4 secuencias importadas a empa
 **Figura 9.** 
 Emparejamiento de secuencias Fastq de lecturas forward y reverse.
 
-![WhatsApp Image 2024-03-23 at 12 19 54 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/bd263fd4-f99b-4d6e-b0e9-854853bb5eb0)
+![WhatsApp Image 2024-03-23 at 12 39 40 PM (1)](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/f509ef4b-3cd6-4386-b506-652ebc05de7c)
 
 ### 5.4 Lectura, corte y mapeo 
 
@@ -191,7 +191,7 @@ Creación de un archivo comprimido.
 **Figura 19.**
 Flujo de trabajo extraido de Galaxy EU.
 
-<img width="842" alt="Screenshot 2024-03-23 at 18 21 18" src="https://github.com/LISSY-ROMERO/GRUPO-7/assets/163603743/490277d2-fc77-46d2-8647-5d6a75aaf3f2">
+![WhatsApp Image 2024-03-24 at 9 20 25 PM](https://github.com/LISSY-ROMERO/GRUPO-7/assets/163187194/fd0f394c-8027-4745-b4dd-5dd6ec537998)
 
 ## 6. Resultados
 
